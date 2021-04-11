@@ -1,0 +1,29 @@
+<html>
+   <center>
+
+
+   <body>
+         <form method = "POST", action="{{url_for('result')}}">
+            <p>CRIM <input type = "text" name = "CRIM" /></p>
+            <p>ZN <input type = "text" name = "ZN" /></p>
+            <p>INDUS <input type = "text" name = "INDUS" /></p>
+            <p>CHAS <input type ="text" name = "CHAS" /></p>
+            <p>NOX <input type = "text" name = "NOX" /></p>
+            <p>AGE <input type = "text" name = "AGE" /></p>
+            <p>DIS <input type = "text" name = "DIS" /></p>
+            <p>RAD <input type ="text" name = "RAD" /></p>
+            <p>PTRATIO<input type = "text" name = "PTRATIO" /></p>
+            <p>B <input type = "text" name = "B" /></p>
+            <p>LSTAT <input type ="text" name = "LSTAT" /></p>
+            <p>TAX<input type = "text" name = "TAX" /></p>
+            <p>RM<input type = "text" name = "RM" /></p>
+            <p><input type = "submit" value = 'result' /></p>
+         </form>
+         <br>
+
+                   {{ data }}
+
+      </center>
+
+   </body>
+</html>
